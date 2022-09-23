@@ -6,6 +6,11 @@ git add .
 git commit -m '初始化仓库'
 git remote add origin git@github.com:zcq011128/typora-notes.git # 复制 github 里面的 SSH 路径
 git push -u origin master
+
+# 以后再提交执行这一下代码
+git add .
+git commit -m '更新'
+git push
 ```
 
 # git 的分支操作
